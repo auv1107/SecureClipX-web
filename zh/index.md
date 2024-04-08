@@ -129,7 +129,7 @@ UI 是我的弱项，欢迎交流、投稿交互设计方案。
 
 [share-reddit-link]: http://www.reddit.com/submit?url=https%3A%2F%2Fsecureclipx.cleanclip.cc&title=SecureClipX%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage
 [share-reddit-shield]: https://img.shields.io/badge/-share%20on%20reddit-black?labelColor=black&logo=reddit&logoColor=white
-[share-telegram-link]: https%3A%2F%2Ft.me%2Fshare%2Furl%3Furl%3Dhttps%3A%2F%2Fsecureclipx.cleanclip.cc%26text%3DSecureClipX%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage.
+[share-telegram-link]: https://t.me/share/url?url=https://secureclipx.cleanclip.cc&text=SecureClipX%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage.
 [share-telegram-shield]: https://img.shields.io/badge/-share%20on%20telegram-black?labelColor=black&logo=telegram&logoColor=white
 
 <!-- [share-weibo-link]:
