@@ -42,27 +42,34 @@ features:
 ---
 
 ## FAQ
+
 ### How can data security be ensured?
+
 After the user copies data, the app usually gets the clipboard data after 100 milliseconds. However, **SecureClipX** gets the data and protects it within the first 20 milliseconds.
 
 <img src="/images/howto.webp" alt="How SecureClipX protect your data" width=800 height=800/>
 
 ### What are the three modes?
+
 The three usage modes intercept data with different levels of intensity and methods.
 Here is the translation preserving the formatting:
 
 #### Interception Method
+
 - Global Mode: Completely **takes over the system's copy and paste shortcut keys**, **any** copy record **will not** appear in the system clipboard.
 - Manual Mode: Manually use **separate shortcut keys** for copying and pasting, **this part** of the copy record **will not** appear in the system clipboard, and is separated from the system clipboard.
 - Whitelist Mode: Content that matches the whitelist is automatically removed from the system clipboard.
 
 #### Interception Intensity
+
 - Global Mode: Intercepts **all** data.
 - Manual Mode: Intercepts **some** data. 
 - Whitelist Mode: Intercepts **whitelisted** data.
 
 ### Which mode should I use?
+
 <br/>
+
 <img src="/images/howtochoose-en.webp" alt="how to choose which mode to use" width=800 height=800/>
 
 ## When will it be open-sourced?
