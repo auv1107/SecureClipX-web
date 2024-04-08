@@ -15,7 +15,7 @@ hero:
       link: http://hey.diagramly.ai/form/D5Us7Ogl
     - theme: alt
       text: About to be open-sourced
-      link: https://macaify.lemonsqueezy.com/buy/188835a0-ca78-444d-b1ca-399218cb1b6a?logo=0&discount=0
+      link: /
     - theme: alt
       text: Sponsor ❤️
       link: https://macaify.lemonsqueezy.com/buy/188835a0-ca78-444d-b1ca-399218cb1b6a?logo=0&discount=0
@@ -45,7 +45,7 @@ features:
 ### How can data security be ensured?
 After the user copies data, the app usually gets the clipboard data after 100 milliseconds. However, **SecureClipX** gets the data and protects it within the first 20 milliseconds.
 
-<img src="/images/howto.png" alt="How SecureClipX protect your data" width=800 height=800/>
+<img src="/images/howto.webp" alt="How SecureClipX protect your data" width=800 height=800/>
 
 ### What are the three modes?
 The three usage modes intercept data with different levels of intensity and methods.
@@ -63,7 +63,7 @@ Here is the translation preserving the formatting:
 
 ### Which mode should I use?
 <br/>
-<img src="/images/howtochoose-en.png" alt="how to choose which mode to use" width=800 height=800/>
+<img src="/images/howtochoose-en.webp" alt="how to choose which mode to use" width=800 height=800/>
 Here is the translated content in American English, with the original markdown formatting preserved:
 
 ## When will it be open-sourced?
@@ -109,7 +109,7 @@ If you enjoy my work, you can support me by [💰 purchasing CleanClip](https://
 
 | [CleanClip - Secure and Powerful Clipboard Manager](https://cleanclip.cc) (macOS app)<br/> |
 | --- |
-| <a href="https://cleanclip.cc/"><img src="/images/home.png" width=600 height=600></a> |
+| <a href="https://cleanclip.cc/"><img src="/images/home.webp" width=600 height=600></a> |
 | Possibly the cleanest clipboard manager on macOS! <br/><br/>🔵 Native macOS app, simple yet powerful <br/>🔵 True minimalist UI<br/> 🔵 Three modes for various use cases <br/>🔵 Main Window - Powerful content management <br/>🔵 Quick Menu - Keyboard-centric operations <br/>🔵 Paste Stack - Paste in sequence |
 
 [share-x-link]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fsecureclipx.cleanclip.cc&text=SecureClipX%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage

@@ -47,7 +47,7 @@ features:
 
 用户复制数据后，App 通常会在 100 毫秒后拿到剪贴板数据。而 **SecureClipX** 会在前 20 毫秒就获取到数据并保护起来。
 
-<img src="/images/howto.png" alt="How SecureClipX protect your data" width=800 height=800/>
+<img src="/images/howto.webp" alt="How SecureClipX protect your data" width=800 height=800/>
 
 ### 三种模式都是什么?
 
@@ -69,7 +69,7 @@ features:
 
 <br/>
 
-<img src="/images/howtochoose.png" alt="how to choose which mode to use" width=800 height=800/>
+<img src="/images/howtochoose.webp" alt="how to choose which mode to use" width=800 height=800/>
 
 ## 何时开源？
 
@@ -112,12 +112,10 @@ UI 是我的弱项，欢迎交流、投稿交互设计方案。
 
 如果你喜欢我的工作，可以通过 [💰 购买软件](https://clip-purchase.macaify.com/) 或 [❤️ 赞助 SecureClipX 开源项目](https://macaify.lemonsqueezy.com/buy/3e207e60-a329-48b9-86fc-e55e37d835d1?logo=0&discount=0) 来支持我。
 
-| [CleanClip - 安全、强大的剪贴板管理器](https://cleanclip.cc) (macOS app)<br/>                                                                                                                                                          |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="https://cleanclip.cc/zh/"><img src="./home.png" width=600 height=600></a>                                                                                                                                                     |
+| [CleanClip - 安全、强大的剪贴板管理器](https://cleanclip.cc) (macOS app)<br/> |
+| --- |
+| <a href="https://cleanclip.cc/zh/"><img src="/images/home.webp" width=600 height=600></a> |
 | 可能是 macOS 上最干净的剪贴板管理工具! <br/><br/>🔵 本地 macOS 应用, 简约而强大 <br/>🔵 真正的极简 UI<br/> 🔵 三大模式满足多种使用场景 <br/>🔵 管理窗口 - 强大的内容管理 <br/>🔵 快捷窗口 - 键盘快捷操作 <br/>🔵 粘贴队列 - 按顺序粘贴 |
-
-The cleanest Clipboard Manager on macOS, ever
 
 [share-x-link]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fsecureclipx.cleanclip.cc&text=SecureClipX%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage
 [share-x-shield]: https://img.shields.io/badge/-share%20on%20x-black?labelColor=black&logo=x&logoColor=white
