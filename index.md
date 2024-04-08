@@ -64,7 +64,6 @@ Here is the translation preserving the formatting:
 ### Which mode should I use?
 <br/>
 <img src="/images/howtochoose-en.webp" alt="how to choose which mode to use" width=800 height=800/>
-Here is the translated content in American English, with the original markdown formatting preserved:
 
 ## When will it be open-sourced?
 
