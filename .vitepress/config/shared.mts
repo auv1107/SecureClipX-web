@@ -38,13 +38,19 @@ export const shared = defineConfig({
       },
     ],
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
+    ['meta', { name: 'keywords', content: 'mac,clipboard,剪贴板,剪切板,best clipboard,best mac app,best productivity,clipboard management app,paste,maccy,clipy,iCopy,Copy\'em,pasta,raycast,top 10 clipboard,clean clip,clean clipboard,simple clipboard,mac clipboard manager,free,free cliboard manager,copyclip,app,application,mac app,clipboard app,clipboard clipper,crypto steal,clipboard crypto,clipboard virus crypto,clipboard virus,clipboard hacking,what is clipboard hijacking,how to use clipboard security,trojan clipper virus,clipboard hijacker malware,how to prevent clipboard security,clipboard virus removal' }],
+    ['meta', { name: "robots", content: "index,follow" }],
+    ['meta', { name: "twitter:title", content: "SecureClipX - Secure System Clipboard Alternative" }],
+    ['meta', { name: "twitter:card", content: "summary_large_image" }],
+    ['meta', { name: "twitter:site", content: "@sintoneli" }],
+    ['meta', { name: "twitter:creator", content: "@sintoneli" }],
+    ['meta', { name: "twitter:image", content: "https://secureclipx.cleanclip.cc/images/twitter.webp" }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "SecureClipX",
     logo: "/images/favicon-32x32.png",
     i18nRouting: false,
-
     sidebar: [
       {
         text: "Examples",
@@ -73,4 +79,8 @@ export const shared = defineConfig({
       },
     ],
   },
+
+  sitemap: {
+    hostname: 'https://secureclipx.cleanclip.cc'
+  }
 });
