@@ -74,7 +74,7 @@ Here is the translation preserving the formatting:
 
 ## When will it be open-sourced?
 
-**If the waiting list exceeds 500 people before 2024.4.12, we will work overtime within a week to complete the development and immediately open source it.**
+**It is expected to be completed and open-sourced on April 30, 2024**. If there is a significant number of applicants in the queue, I will forgo rest and strive to complete the development by April 18, 2024.
 
 Currently, all **key technologies have been implemented**, and we are **in the process of** interaction design and integration.
 
