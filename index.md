@@ -15,7 +15,7 @@ hero:
       link: http://hey.diagramly.ai/form/D5Us7Ogl
     - theme: alt
       text: About to be open-sourced
-      link: /
+      link: /#when-will-it-be-open-sourced
     - theme: alt
       text: Sponsor ❤️
       link: https://macaify.lemonsqueezy.com/buy/188835a0-ca78-444d-b1ca-399218cb1b6a?logo=0&discount=0
@@ -45,7 +45,7 @@ features:
 
 ### How can data security be ensured?
 
-After the user copies data, the app usually gets the clipboard data after 100 milliseconds. However, **SecureClipX** gets the data and protects it within the first 20 milliseconds.
+After the user copies data, most apps typically get the clipboard data after around 100 milliseconds. However, **SecureClipX** will obtain the data **within the first 20 milliseconds**, and **remove or desensitize it from the system clipboard** to protect the data.
 
 <img src="/images/howto.webp" alt="How SecureClipX protect your data" width=800 height=800/>
 
@@ -74,21 +74,11 @@ Here is the translation preserving the formatting:
 
 ## When will it be open-sourced?
 
-It will be open-sourced after the **Global Mode** development is completed. The **Manual Mode** and **Whitelist Mode** will be released successively after the open-source release.
+**If the waiting list exceeds 500 people before 2024.4.12, we will work overtime within a week to complete the development and immediately open source it.**
 
-Currently, all critical technologies have been **implemented**, and the **interaction design and integration** are **in progress**.
+Currently, all **key technologies have been implemented**, and we are **in the process of** interaction design and integration.
 
-### If you have design 🌈 skills
-
-UI is my weakness, welcome to discuss and contribute interaction design proposals.
-
-### If you have development 🧑‍💻 skills
-
-Feel free to submit PRs after the development repository is released.
-
-### If you have substantial financial resources 💰
-
-You can [❤️ sponsor the project](https://macaify.lemonsqueezy.com/buy/3e207e60-a329-48b9-86fc-e55e37d835d1?logo=0&discount=0) for future development.
+The first open source version will **only guarantee the completion of the global mode**. The **manual mode** and **whitelist mode** will be released successively after open sourcing.
 
 ### Share with more people 🔥
 
@@ -104,6 +94,18 @@ You can [❤️ sponsor the project](https://macaify.lemonsqueezy.com/buy/3e207e
 <!-- [![][share-weibo-shield]][share-weibo-link]<br/> -->
 <!-- [![][share-mastodon-shield]][share-mastodon-link]<br/> -->
 </div>
+
+### If you have design 🌈 skills
+
+UI is my weakness, welcome to discuss and contribute interaction design proposals.
+
+### If you have development 🧑‍💻 skills
+
+Feel free to submit PRs after the development repository is released.
+
+### If you have substantial financial resources 💰
+
+You can [❤️ sponsor the project](https://macaify.lemonsqueezy.com/buy/3e207e60-a329-48b9-86fc-e55e37d835d1?logo=0&discount=0) for future development.
 
 ## Advertisement
 

@@ -15,7 +15,7 @@ hero:
       link: http://hey.diagramly.ai/form/D5Us7Ogl
     - theme: alt
       text: 即将开源
-      link: /zh/
+      link: /zh/#%E4%BD%95%E6%97%B6%E5%BC%80%E6%BA%90
     - theme: alt
       text: 赞助 ❤️
       link: https://macaify.lemonsqueezy.com/buy/3e207e60-a329-48b9-86fc-e55e37d835d1?logo=0&discount=0
@@ -45,7 +45,7 @@ features:
 
 ### 如何确保数据安全?
 
-用户复制数据后，App 通常会在 100 毫秒后拿到剪贴板数据。而 **SecureClipX** 会在前 20 毫秒就获取到数据并保护起来。
+用户复制数据后，一般的 App 通常会在 100 毫秒后拿到剪贴板数据。而 **SecureClipX** 会在**前 20 毫秒**就获取到数据，并将其**从系统剪贴板中移除或脱敏**以保护数据。
 
 <img src="/images/howto.webp" alt="How SecureClipX protect your data" width=800 height=800/>
 
@@ -73,21 +73,11 @@ features:
 
 ## 何时开源？
 
-将在**全局模式**开发完成后将进行开源，**手动模式**和**白名单模式**会在开源后陆续发布。
+**2024.4.12 前，如果等待列表人数超过 500 人，那么一周内加班开发完毕，立即开源。**
 
 目前所有关键技术都**已经实现**，**正在进行**交互设计和整合。
 
-### 如果你有设计🌈能力
-
-UI 是我的弱项，欢迎交流、投稿交互设计方案。
-
-### 如果你有开发🧑‍💻能力
-
-等开发仓库放出后，欢迎提 PR。
-
-### 如果你财力💰雄厚
-
-可以[❤️ 赞助项目](https://macaify.lemonsqueezy.com/buy/3e207e60-a329-48b9-86fc-e55e37d835d1?logo=0&discount=0)进行后续开发。
+第一个开源版本，只保证**全局模式**开发完毕。**手动模式**和**白名单模式**会在开源后陆续发布。
 
 ### 分享给更多人 🔥
 
@@ -103,6 +93,18 @@ UI 是我的弱项，欢迎交流、投稿交互设计方案。
 <!-- [![][share-weibo-shield]][share-weibo-link]<br/> -->
 <!-- [![][share-mastodon-shield]][share-mastodon-link]<br/> -->
 </div>
+
+### 如果你有设计🌈能力
+
+UI 是我的弱项，欢迎交流、投稿交互设计方案。
+
+### 如果你有开发🧑‍💻能力
+
+等开发仓库放出后，欢迎提 PR。
+
+### 如果你财力💰雄厚
+
+可以[❤️ 赞助项目](https://macaify.lemonsqueezy.com/buy/3e207e60-a329-48b9-86fc-e55e37d835d1?logo=0&discount=0)进行后续开发。
 
 ## 打个广告
 
