@@ -44,7 +44,7 @@ export const shared = defineConfig({
     ['meta', { name: "twitter:card", content: "summary_large_image" }],
     ['meta', { name: "twitter:site", content: "@sintoneli" }],
     ['meta', { name: "twitter:creator", content: "@sintoneli" }],
-    ['meta', { name: "twitter:image", content: "https://secureclipx.cleanclip.cc/images/twitter.webp" }],
+    ['meta', { name: "twitter:image", content: "https://secureclipx.cleanclip.cc/images/twitter_card.webp" }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
