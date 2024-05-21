@@ -3,84 +3,75 @@
 layout: home
 
 hero:
-  name: "SecureClipX"
-  text: "Secure System Clipboard Alternative"
-  tagline: Protect your data a step ahead, no more worries about clipboard data leakage
+  name: "Copi"
+  text: "A secure way to copy&paste"
+  tagline: Provides a secure way to copy and paste text, preventing any form of clipboard attack, and protecting your information security
   image:
     src: /images/android-chrome-512x512.png
-    alt: SecureClipX
+    alt: Copi
   actions:
     - theme: brand
-      text: Join the Waitlist
-      link: http://hey.diagramly.ai/form/D5Us7Ogl
-    - theme: alt
-      text: About to be open-sourced
-      link: /#when-will-it-be-open-sourced
+      text: Github
+      link: https://github.com/s1ntoneli/Copi
     - theme: alt
       text: Sponsor ❤️
-      link: https://macaify.lemonsqueezy.com/buy/188835a0-ca78-444d-b1ca-399218cb1b6a?logo=0&discount=0
+      link: https://macaify.lemonsqueezy.com/buy/3e207e60-a329-48b9-86fc-e55e37d835d1?logo=0&discount=0
 
 features:
-  - title: Open Source and Free
-    details: Guaranteed security and trustworthiness, open source project
+  - title: Open-source and free
+    details: Ensuring security and trustworthiness, the project is open-source
     icon: 💎
-  - title: System Clipboard V2
-    details: SecureClipX is not an alternative to clipboard managers, but an alternative to the system clipboard
-    icon: 💻
-  - title: Traceless Copying
-    details: Your copied content is no longer stored in the system clipboard, malicious software has nowhere to start
+  - title: Protect digital currencies
+    details: Use a dedicated clipboard to prevent clipboard replacement attacks and leaks
+    icon: 💰
+  - title: Traceless copying
+    details: Your copied content is no longer stored in the system clipboard, making it inaccessible to malware
     icon: 🚫
-  - title: Local Storage
-    details: All data is saved locally, not uploaded to any server
-    icon: 🗂️  
-  - title: Three Security Modes
-    details: Global mode, Manual mode, Whitelist mode
+  - title: Quick action bar
+    details: A quick and secure copy/paste option appears above the selected text for convenient operation
     icon: 🔐
-  - title: Automatic Desensitization
-    details: Automatically desensitize data that matches the whitelist, no more accidental sending of sensitive data
+  - title: Dedicated copy shortcut
+    details: You can set a dedicated shortcut for secure copying and secure pasting
+    icon: ⌨️
+  - title: Override system copy/paste shortcuts
+    details: After overriding, all text copy/paste operations are automatically performed through Copi's secure channels
     icon: ✅
 ---
 
+## Why Copi is needed
+
+1. Defend against clipboard replacement attacks
+2. Prevent clipboard content leaks
+
+## Who needs it?
+
+If you:
+1. Own digital currencies
+2. Often copy sensitive information
+3. Don't trust the system clipboard
+
+## How to use?
+
+### 1. Action Bar mode
+With the Action Bar enabled, when text is selected, quick buttons for secure copying and pasting will appear above the text. Click with the mouse to use the Copi clipboard for text operations. Long-press the text input field to show the paste option.
+
+<img src="/images/actionbar2.png" alt="Quick action buttons for text" width=400 height=400/>
+
+### 2. Shortcut mode
+You can set dedicated shortcuts for secure copying and secure pasting.
+<img src="/images/shortcuts.png" alt="You can set dedicated shortcuts for secure copying and secure pasting" width=400 height=400/>
+
+### 3. Override system copy/paste shortcuts
+After overriding, all text copying and pasting is automatically performed through Copi's secure channels.
+<img src="/images/override-shortcuts.png" alt="After overriding, all text copying and pasting is automatically performed through Copi's secure channels" width=400 height=400/>
+
 ## FAQ
 
-### How can data security be ensured?
+### How is data security ensured?
 
-After the user copies data, most apps typically get the clipboard data after around 100 milliseconds. However, **SecureClipX** will obtain the data **within the first 20 milliseconds**, and **remove or desensitize it from the system clipboard** to protect the data.
+Copi uses the system's custom "service" function to get and paste text, instead of going through the system clipboard. Therefore, traditional attacks on the "system clipboard" will all be ineffective.
 
-<img src="/images/howto.webp" alt="How SecureClipX protect your data" width=800 height=800/>
-
-### What are the three modes?
-
-The three usage modes intercept data with different levels of intensity and methods.
-Here is the translation preserving the formatting:
-
-#### Interception Method
-
-- Global Mode: Completely **takes over the system's copy and paste shortcut keys**, **any** copy record **will not** appear in the system clipboard.
-- Manual Mode: Manually use **separate shortcut keys** for copying and pasting, **this part** of the copy record **will not** appear in the system clipboard, and is separated from the system clipboard.
-- Whitelist Mode: Content that matches the whitelist is automatically removed from the system clipboard.
-
-#### Interception Intensity
-
-- Global Mode: Intercepts **all** data.
-- Manual Mode: Intercepts **some** data. 
-- Whitelist Mode: Intercepts **whitelisted** data.
-
-### Which mode should I use?
-
-<br/>
-
-<img src="/images/howtochoose-en.webp" alt="how to choose which mode to use" width=800 height=800/>
-
-## When will it be open-sourced?
-
-**It is expected to be completed and open-sourced on April 30, 2024**. If there is a significant number of applicants in the queue, I will forgo rest and strive to complete the development by April 18, 2024.
-
-Currently, all **key technologies have been implemented**, and we are **in the process of** interaction design and integration.
-
-The first open source version will **only guarantee the completion of the global mode**. The **manual mode** and **whitelist mode** will be released successively after open sourcing.
-
-### Share with more people 🔥
+## Share with more people 🔥
 
 <div class="share">
 
@@ -95,50 +86,38 @@ The first open source version will **only guarantee the completion of the global
 <!-- [![][share-mastodon-shield]][share-mastodon-link]<br/> -->
 </div>
 
-### If you have design 🌈 skills
-
-UI is my weakness, welcome to discuss and contribute interaction design proposals.
-
-### If you have development 🧑‍💻 skills
-
-Feel free to submit PRs after the development repository is released.
-
-### If you have substantial financial resources 💰
-
-You can [❤️ sponsor the project](https://macaify.lemonsqueezy.com/buy/3e207e60-a329-48b9-86fc-e55e37d835d1?logo=0&discount=0) for future development.
-
 ## Advertisement
 
-I'm a full-time independent developer. I love coding and creating utility software. **SecureClipX** will be my first officially released open-source Mac software and the second free Mac software.
+I'm a full-time independent developer. I love coding and creating utility software. **Copi** will be my first officially released open-source Mac software and the second free Mac software.
 
 Currently, my income is entirely from the clipboard manager **CleanClip** below. I often post its updates on Reddit, and it has been well-received by many friends.
 
-If you enjoy my work, you can support me by [💰 purchasing CleanClip](https://clip-purchase.macaify.com/) or [❤️ sponsoring](https://macaify.lemonsqueezy.com/buy/3e207e60-a329-48b9-86fc-e55e37d835d1?logo=0&discount=0) the SecureClipX open-source project.
+If you enjoy my work, you can support me by [💰 purchasing CleanClip](https://clip-purchase.macaify.com/) or [❤️ sponsoring](https://macaify.lemonsqueezy.com/buy/3e207e60-a329-48b9-86fc-e55e37d835d1?logo=0&discount=0) the Copi open-source project.
 
 | [CleanClip - Secure and Powerful Clipboard Manager](https://cleanclip.cc) (macOS app)<br/> |
 | --- |
 | <a href="https://cleanclip.cc/"><img src="/images/home.webp" width=600 height=600></a> |
 | Possibly the cleanest clipboard manager on macOS! <br/><br/>🔵 Native macOS app, simple yet powerful <br/>🔵 True minimalist UI<br/> 🔵 Three modes for various use cases <br/>🔵 Main Window - Powerful content management <br/>🔵 Quick Menu - Keyboard-centric operations <br/>🔵 Paste Stack - Paste in sequence |
 
-[share-x-link]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fsecureclipx.cleanclip.cc&text=SecureClipX%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage
+[share-x-link]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fcopi.cleanclip.cc&text=Copi%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage
 [share-x-shield]: https://img.shields.io/badge/-share%20on%20x-black?labelColor=black&logo=x&logoColor=white
-[share-facebook-link]: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsecureclipx.cleanclip.cc%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage.
+[share-facebook-link]: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcopi.cleanclip.cc%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage.
 [share-facebook-shield]: https://img.shields.io/badge/-share%20on%20facebook-black?labelColor=black&logo=facebook&logoColor=white
-[share-linkedin-link]: http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fsecureclipx.cleanclip.cc&title=SecureClipX%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage
+[share-linkedin-link]: http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fcopi.cleanclip.cc&title=Copi%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage
 [share-linkedin-shield]: https://img.shields.io/badge/-share%20on%20linkedin-black?labelColor=black&logo=linkedin&logoColor=white
 
 <!-- [share-mastodon-link]:
 [share-mastodon-shield]: https://img.shields.io/badge/-share%20on%20mastodon-black?labelColor=black&logo=mastodon&logoColor=white&style=flat-square -->
 
-[share-reddit-link]: http://www.reddit.com/submit?url=https%3A%2F%2Fsecureclipx.cleanclip.cc&title=SecureClipX%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage
+[share-reddit-link]: http://www.reddit.com/submit?url=https%3A%2F%2Fcopi.cleanclip.cc&title=Copi%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage
 [share-reddit-shield]: https://img.shields.io/badge/-share%20on%20reddit-black?labelColor=black&logo=reddit&logoColor=white
-[share-telegram-link]: https://t.me/share/url?url=https://secureclipx.cleanclip.cc&text=SecureClipX%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage.
+[share-telegram-link]: https://t.me/share/url?url=https://copi.cleanclip.cc&text=Copi%20-%20An%20open%20source%20secure%20alternatives%20to%20the%20macOS%20system%20clipboard.%20Protect%20your%20data%20a%20step%20ahead%2C%20no%20more%20worries%20about%20clipboard%20data%20leakage.
 [share-telegram-shield]: https://img.shields.io/badge/-share%20on%20telegram-black?labelColor=black&logo=telegram&logoColor=white
 
 <!-- [share-weibo-link]:
 [share-weibo-shield]: https://img.shields.io/badge/-share%20on%20weibo-black?labelColor=black&logo=sinaweibo&logoColor=white&style=flat-square -->
 
-[share-whatsapp-link]: https://api.whatsapp.com/send?text=https://secureclipx.cleanclip.cc
+[share-whatsapp-link]: https://api.whatsapp.com/send?text=https://copi.cleanclip.cc
 [share-whatsapp-shield]: https://img.shields.io/badge/-share%20on%20whatsapp-black?labelColor=black&logo=whatsapp&logoColor=white
 
 <style>

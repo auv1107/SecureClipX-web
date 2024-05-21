@@ -40,15 +40,15 @@ export const shared = defineConfig({
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
     ['meta', { name: 'keywords', content: 'mac,clipboard,剪贴板,剪切板,best clipboard,best mac app,best productivity,clipboard management app,paste,maccy,clipy,iCopy,Copy\'em,pasta,raycast,top 10 clipboard,clean clip,clean clipboard,simple clipboard,mac clipboard manager,free,free cliboard manager,copyclip,app,application,mac app,clipboard app,clipboard clipper,crypto steal,clipboard crypto,clipboard virus crypto,clipboard virus,clipboard hacking,what is clipboard hijacking,how to use clipboard security,trojan clipper virus,clipboard hijacker malware,how to prevent clipboard security,clipboard virus removal' }],
     ['meta', { name: "robots", content: "index,follow" }],
-    ['meta', { name: "twitter:title", content: "SecureClipX - Secure System Clipboard Alternative" }],
+    ['meta', { name: "twitter:title", content: "Copi - Secure System Clipboard Alternative" }],
     ['meta', { name: "twitter:card", content: "summary_large_image" }],
     ['meta', { name: "twitter:site", content: "@sintoneli" }],
     ['meta', { name: "twitter:creator", content: "@sintoneli" }],
-    ['meta', { name: "twitter:image", content: "https://secureclipx.cleanclip.cc/images/twitter_card.webp" }],
+    ['meta', { name: "twitter:image", content: "https://copi.cleanclip.cc/images/twitter_card.webp" }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    siteTitle: "SecureClipX",
+    siteTitle: "Copi",
     logo: "/images/favicon-32x32.png",
     i18nRouting: false,
     sidebar: [
@@ -75,12 +75,12 @@ export const shared = defineConfig({
         icon: {
           svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"/></svg>',
         },
-        link: "mailto:secureclipx@cleanclip.cc",
+        link: "mailto:copi@cleanclip.cc",
       },
     ],
   },
 
   sitemap: {
-    hostname: 'https://secureclipx.cleanclip.cc'
+    hostname: 'https://copi.cleanclip.cc'
   }
 });

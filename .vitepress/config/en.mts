@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 export const en = defineConfig({
   lang: 'en-US',
-  title: "SecureClipX - Secure System Clipboard Alternative",
+  title: "Copi - Secure System Clipboard Alternative",
   description: "Secure alternatives to the macOS system clipboard, Protect your data a step ahead, no more worries about clipboard data leakage",
   themeConfig: {
     nav: [
@@ -11,7 +11,7 @@ export const en = defineConfig({
         items: [
           { text: "CleanClip", link: "https://cleanclip.cc" },
           { text: "Macaify", link: "https://macaify.com" },
-          { text: 'SecureClipX', link: '/' }
+          { text: 'Copi', link: '/' }
         ],
       },
       { text: "Sponsor ❤️", link: "https://macaify.lemonsqueezy.com/buy/3e207e60-a329-48b9-86fc-e55e37d835d1?logo=0&discount=0" },
