@@ -38,7 +38,7 @@ features:
     icon: ✅
 ---
 
-## Why Copi is needed
+## Why Copi is needed?
 
 1. Defend against clipboard replacement attacks
 2. Prevent clipboard content leaks
@@ -70,6 +70,8 @@ After overriding, all text copying and pasting is automatically performed throug
 ### How is data security ensured?
 
 Copi uses the system's custom "service" function to get and paste text, instead of going through the system clipboard. Therefore, traditional attacks on the "system clipboard" will all be ineffective.
+
+<img src="/images/safecopy.png" alt="How is data security ensured?" width=800 height=400/>
 
 ## Share with more people 🔥
 
