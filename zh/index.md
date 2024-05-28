@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Copi"
-  text: "复制粘贴的安全方式"
+  text: "macOS 系统剪贴板的安全替代品"
   tagline: 提供一种安全的方式复制和粘贴文字，杜绝任何形式的剪贴板攻击，保护你的信息安全
   image:
     src: /images/android-chrome-512x512.png
@@ -24,7 +24,7 @@ features:
   - title: 保护数字货币
     details: 使用专用剪贴板，杜绝剪贴板替换攻击和泄漏
     icon: 💰
-  - title: 无痕复制
+  - title: 防御剪贴板攻击
     details: 你的复制内容不再存储在系统剪贴板内，恶意软件无从下手
     icon: 🚫
   - title: 快捷操作栏

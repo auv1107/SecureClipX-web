@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Copi"
-  text: "A secure way to copy&paste"
+  text: "A Secure Alternative to the Mac System Clipboard"
   tagline: Provides a secure way to copy and paste text, preventing any form of clipboard attack, and protecting your information security
   image:
     src: /images/android-chrome-512x512.png
